@@ -22,7 +22,7 @@ public class HelloWorld {
 
     public static int Sum(int a, int b){
         int sum;
-        int c = 2;
+        
         sum = a + b;
         return  sum;
     }
