@@ -21,10 +21,10 @@ public class HelloWorld {
     }
 
     public static int Sum(int a, int b){
-        int sum;
+        //int sum; 
         
-        sum = a + b;
-        return  sum;
+        //sum = a + b;
+        return a+b; /*sum;*/
     }
 
     public static void printSum(){
