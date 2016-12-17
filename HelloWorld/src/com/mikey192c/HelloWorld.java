@@ -11,8 +11,8 @@ public class HelloWorld {
         int result = Sum(a, b);
         System.out.println("-------------------------------");
         System.out.println("Computer selected the next numbers: " + a + " and " + b);
-        printSum();
-        System.out.println(result);
+        printSum(result);
+        //System.out.println(result);
         if(result > 10){
             System.out.println(Pet.dog);
         }else
@@ -21,14 +21,14 @@ public class HelloWorld {
     }
 
     public static int Sum(int a, int b){
-        //int sum; 
+        int sum;
         
-        //sum = a + b;
-        return a+b; /*sum;*/
+        sum = a + b;
+        return sum;
     }
 
-    public static void printSum(){
-        System.out.print("Sum is: ");
+    public static void printSum(int sum){
+        System.out.println("Sum is: "+sum );
     }
 }
 
